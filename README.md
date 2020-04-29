@@ -3,8 +3,9 @@
 ## warning
 do not use `composer update` as [patches in 3rd packages](https://github.com/Dolibarr/dolibarr/pull/11224)
 
-## Env
+# Env
 
+## git
 1. `git clone https://github.com/Dolibarr/dolibarr.git`
 2. `cd dolibarr`
 3. for downsizing, add items to .gitignore
