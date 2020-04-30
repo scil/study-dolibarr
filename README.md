@@ -20,6 +20,7 @@ htdocs/langs/
 htdocs/theme/common/fontawesome-5/
 htdocs/install/
 ```
+4. remove `htdocs/conf/conf.php` from .gitignore
 4. remove .gitignore files under subdir, like `htdocs\custom\.gitignore` to monitor changes in there dirs.
 5. `git init`
 6. `git add . && git commit -m "first"
