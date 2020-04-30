@@ -1,7 +1,12 @@
-# study-dolibarr
 
-## warning
+
+# warning
 do not use `composer update` as [patches in 3rd packages](https://github.com/Dolibarr/dolibarr/pull/11224)
+
+# Ref
+
+[tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
+
 
 # Env
 
