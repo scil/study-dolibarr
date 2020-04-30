@@ -41,4 +41,5 @@ htdocs/install/
 ## Dolibarr
 
 1. enable modules: `Debug Logs`
-
+2. use 3rd modules: 
+  - DoliMyAdmin https://wiki.dolibarr.org/index.php/Module_DoliMyAdmin_(Administration_of_Dolibarr_Database)
