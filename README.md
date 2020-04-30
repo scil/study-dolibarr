@@ -33,5 +33,7 @@ htdocs/install/
 5. phpstorm, DBGp Proxy -> IDE key: PHPSTORM
 6. visit `localhost:8000/install`
 
+## Dolibarr
 
+1. enable modules: `Debug Logs`
 
