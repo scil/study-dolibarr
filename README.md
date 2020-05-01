@@ -1,7 +1,9 @@
 
 # Ref
 
-[tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
+## DB
+- [tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
+- `htdocs\install\mysql\tables\`
 
 
 # Env
