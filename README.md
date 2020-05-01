@@ -1,8 +1,4 @@
 
-
-# warning
-do not use `composer update` as [patches in 3rd packages](https://github.com/Dolibarr/dolibarr/pull/11224)
-
 # Ref
 
 [tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
@@ -39,6 +35,9 @@ htdocs/install/
 6. visit `localhost:8000/install`
 
 ## Dolibarr
+
+1. rename `composer.json` to `composer-doli.json` as [patches in 3rd packages](https://github.com/Dolibarr/dolibarr/pull/11224)
+
 
 1. enable modules: `Debug Logs`
 2. use 3rd modules: 
