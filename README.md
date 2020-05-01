@@ -42,7 +42,7 @@ mysql -uroot -pXXXXXXX -e "show master logs;"
 bin_log=/var/lib/mysql/mysql-bin_log.000001
 # https://www.thegeekstuff.com/2017/08/mysqlbinlog-examples/
 mysqlbinlog  --server-id=1  --base64-output=decode-rows  --verbose  --database doli $bin_log
-# Display Only SQL Queries in the Output
+# Display only the statements contained in the log
 mysqlbinlog -short-form  --server-id=1   --database doli $bin_log
 ```
 
