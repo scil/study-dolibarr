@@ -8,6 +8,39 @@
 
 # Env
 
+## mysql: binary log
+
+1. sudo vi /etc/mysql/my.cnf
+
+```
+[mysqld]
+
+log_bin=mysql-bin_log
+server-id=1
+
+```
+or
+```
+mysql=/etc/mysql/my.cnf
+me=/vagrant/www/dolibarr-study/my.cnf 
+sudo cp -f $mysql $me
+vi $me
+sudo cp -f $me $mysql
+```
+
+
+2. 
+```
+sudo service mysql restart
+
+mysql -uroot -pXXXXXXX -e "show variables like '%log_b%';"
+
+mysql -uroot -pXXXXXXX -e "show variables like '%binlog%';"
+
+mysql -uroot -pXXXXXXX -e "show master logs;"
+```
+
+
 ## git
 1. `git clone https://github.com/Dolibarr/dolibarr.git`
 2. `cd dolibarr`
