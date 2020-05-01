@@ -38,6 +38,8 @@ mysql -uroot -pXXXXXXX -e "show variables like '%log_b%';"
 mysql -uroot -pXXXXXXX -e "show variables like '%binlog%';"
 
 mysql -uroot -pXXXXXXX -e "show master logs;"
+
+mysqlbinlog --base64-output=decode-rows  --verbose  --database doli /var/lib/mysql/mysql-bin_log.000001
 ```
 
 
