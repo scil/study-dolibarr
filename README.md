@@ -8,7 +8,7 @@
 
 # Env
 
-## mysql: binary log
+## mysql: binary log (or use Dolibarr log)
 
 1. sudo vi /etc/mysql/my.cnf
 
@@ -22,7 +22,7 @@ server-id=1
 or
 ```
 mysql=/etc/mysql/my.cnf
-me=/vagrant/www/dolibarr-study/my.cnf 
+me=/vagrant/www/dolibarr-study/log/my.cnf 
 sudo cp -f $mysql $me
 vi $me
 sudo cp -f $me $mysql
@@ -80,7 +80,9 @@ htdocs/install/
 1. rename `composer.json` to `composer-doli.json` as [patches in 3rd packages](https://github.com/Dolibarr/dolibarr/pull/11224)
 
 
-1. enable modules: `Debug Logs`
+1. enable modules: `Debug Logs`. Then use excel to analysis dolibarr.log (data -> from text -> filter Column4 -> custom -> begins with sql= AND does not begin with sql=SELECT)
 2. use 3rd modules: 
   - DoliMyAdmin https://wiki.dolibarr.org/index.php/Module_DoliMyAdmin_(Administration_of_Dolibarr_Database)
   - Module Extra Admin Tools EN https://wiki.dolibarr.org/index.php/Module_Extra_Admin_Tools_EN
+
+
