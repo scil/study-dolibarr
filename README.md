@@ -1,6 +1,10 @@
 
 # Ref
 
+## modules for devolper (class fils;da tables; permissions)
+
+[List of Modules (developer)](https://wiki.dolibarr.org/index.php/Category:List_of_Modules_(developer))
+
 ## DB
 - [tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
 - `htdocs\install\mysql\tables\`
