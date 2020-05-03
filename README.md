@@ -8,8 +8,12 @@
 contains:
 - class files
 - db tables
-- permissions
+- Business rules
+- Life cycle
 - trigger 
+- permissions
+
+
 
 ## db
 - [tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
