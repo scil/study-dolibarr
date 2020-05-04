@@ -51,7 +51,7 @@ htdocs/install/
 ## php and debug
 1. create a mysql database `CREATE DATABASE IF NOT EXISTS xx DEFAULT CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci;`
 2. enable `gd2`,`intl`,`mysqli`and `php_xdebug` in `D:\A\Scoop\apps\php7.4\current\php.ini`, and `xdebug.idekey=PHPSTORM`
-3. `php -S localhost:8000`
+3. `cd D:\vagrant\www\dolibarr\htdocs\ && php -S localhost:8000`
 4. firefox addon [xdebug-ext-quantum](https://addons.mozilla.org/en-US/firefox/addon/xdebug-ext-quantum/), and set idekey
 5. phpstorm, DBGp Proxy -> IDE key: PHPSTORM
 6. visit `localhost:8000/install`
