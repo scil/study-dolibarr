@@ -5,9 +5,9 @@
 
 [source docs](http://doxygen.dolibarr.org/)
 
-## modules for devolper 
+## docs of official modules, for devolper 
 
-[List of Modules (developer)](https://wiki.dolibarr.org/index.php/Category:List_of_Modules_(developer))
+[List of standard Modules (for developer)](https://wiki.dolibarr.org/index.php/Category:List_of_Modules_(developer))
 
 contains:
 - class files
