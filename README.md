@@ -3,7 +3,7 @@
 
 [Developer documentation](https://wiki.dolibarr.org/index.php/Developer_documentation)
 
-[source docs](http://doxygen.dolibarr.org/)
+
 
 ## docs of official modules, for devolper 
 
@@ -16,15 +16,6 @@ contains:
 - Life cycle
 - trigger 
 - permissions
-
-
-
-## db
-- [tables](https://wiki.dolibarr.org/index.php/Category:Table_SQL)
-- `htdocs\install\mysql\tables\`
-
-
-# Env
 
 
 ## git: monitor files changes
@@ -48,7 +39,7 @@ htdocs/install/
 5. `git init`
 6. `git add . && git commit -m "first"
 
-## php and debug
+## php and debug on os windows
 1. create a mysql database `CREATE DATABASE IF NOT EXISTS xx DEFAULT CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci;`
 2. enable `gd2`,`intl`,`mysqli`and `php_xdebug` in `D:\A\Scoop\apps\php7.4\current\php.ini`, and `xdebug.idekey=PHPSTORM`
 3. `cd D:\vagrant\www\dolibarr\htdocs\ && php -S localhost:8000`
