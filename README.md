@@ -85,10 +85,10 @@ log_bin=mysql-bin_log
 server-id=1
 
 ```
-or
+or // related file: D:\vagrant\www\study-dolibarr\log\my.cnf
 ```
 mysql=/etc/mysql/my.cnf
-me=/vagrant/www/dolibarr-study/log/my.cnf 
+me=/vagrant/www/study-dolibarr/log/my.cnf 
 sudo cp -f $mysql $me
 vi $me
 sudo cp -f $me $mysql
